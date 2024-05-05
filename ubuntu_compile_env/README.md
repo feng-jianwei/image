@@ -1,7 +1,7 @@
 # docker
 
 ```shell
-docker run -itd --init -v $local_path:/home/ubuntu/code -p 10010:22 --name hostname ubuntu:latest
+docker run -itd --init -v $local_path:/home/ubuntu/code -p 10010:22 --name $hostname fengjv/ubuntu_compile_env:latest
 ```
 
 ## 制作镜像
